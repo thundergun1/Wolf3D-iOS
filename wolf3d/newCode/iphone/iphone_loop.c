@@ -877,7 +877,7 @@ iphoneFrame
 ==================
 */
 void iphoneFrame() {
-	unsigned char blendColor[4];
+	unsigned char blendColor[4] = { 0, 0, 0, 0};
 	
 	int	msec = 14;	// fixed time
 
